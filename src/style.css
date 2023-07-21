@@ -22,13 +22,16 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	z-index: 100;
+	animation: show 7s ease;
 }
 
 .logo {
+	position: relative;
 	font-weight: 600;
 	font-size: 25px;
 	color: #ededed;
 	text-decoration: none;
+	animation: show 7s ease;
 }
 
 .navbar a {
@@ -63,17 +66,20 @@ body {
 	font-size: 56px;
 	font-weight: 700;
 	line-height: 1.2;
+	animation: show 5s ease;
 }
 
 .home-content h3 {
 	font-size: 32px;
 	font-weight: 700;
 	color: #00abf0;
+	animation: show 5s ease;
 }
 
 .home-content p {
 	font-size: 16px;
 	margin: 20px 0 40px;
+	animation: show 5s ease;
 }
 
 .home-content .btn-box {
@@ -81,6 +87,7 @@ body {
 	justify-content: space-between;
 	width: 345px;
 	height: 50px;
+	animation: show 5s ease;
 }
 
 .btn-box a {
@@ -143,6 +150,7 @@ body {
 	width: 250px;
 	display: flex;
 	justify-content: space-between;
+	animation: show 5s ease;
 }
 
 .home-sci a {
@@ -181,4 +189,14 @@ body {
 
 .home-sci a:hover::before {
 	width: 100%;
+}
+
+@keyframes show {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
