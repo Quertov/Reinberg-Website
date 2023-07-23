@@ -48,6 +48,10 @@ body {
 	color: #00abf0;
 }
 
+.navbar a.active {
+	font-size: larger;
+}
+
 .home {
 	background: url('../images/home.jpg') no-repeat;
 	background-size: cover;
