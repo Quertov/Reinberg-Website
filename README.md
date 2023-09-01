@@ -1,3 +1,3 @@
-# Vlad-Portfolio
+# Reinberg-Portfolio
 
 Just a website for my portfolio
